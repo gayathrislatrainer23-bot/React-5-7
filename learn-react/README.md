@@ -64,3 +64,18 @@ console.log(age);  // 22
 task : 
 Show each student’s name (from props) with a Present/Absent button.
 Use state to toggle and display the attendance status.
+
+8/12/2025
+
+virtual dom - light weight copy of real dom
+reconcilation -
+hooks - special fun in react
+day-3
+
+State : spacial memory inside comp that hold data which can change over time
+hooks: special fun:s used to state management ,life cycle metnods and  side effect
+
+useState : hook used to manage state.
+const [state, setState] = useState(0)
+events:action performed by user
+synthetic events : react wrap html events.

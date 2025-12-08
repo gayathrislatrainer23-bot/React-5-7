@@ -1,5 +1,7 @@
 
 import './App.css'
+import Counter from './components/Counter'
+import Fruits from './components/Fruits'
 import Login from './components/Login'
 
 
@@ -9,6 +11,8 @@ function App() {
   return (
     <>
 <Login m={mark} arr= {arr} />
+<Fruits/>
+<Counter/>
     </>
   )
 }
