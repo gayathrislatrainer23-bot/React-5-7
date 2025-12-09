@@ -7,7 +7,7 @@ function Counter(){
     // let h = 10
     const increment = ()=>{
         if(count>= 10){
-            setCount( count)  
+            setCount(count)  
         }else{
 
             setCount( count+1)

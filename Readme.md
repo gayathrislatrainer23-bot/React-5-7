@@ -26,7 +26,7 @@ App.jsx -- main react component -- parsel casing <!-- LoginForm -->
 package.json -- keep meta data of dependencies
 live -- npm run dev
 
-
+day-3
 5/12/2025
 2. comp  --  1. class
               2. fun comp
@@ -42,7 +42,7 @@ live -- npm run dev
 7. props : data passing from parent comp to child comp
 
 
-
+day-4
 8/12/2025
 
 virtual dom - light weight copy of real dom
@@ -56,9 +56,28 @@ hooks: special fun:s used to state management ,life cycle metnods and  side effe
 useState : hook used to manage state.
 const [state, setState] = useState(0)
 
+day-5
+9/12/2025
+<!-- state task --> 
+1.change background color when button click
+  comp : Background changer
+2. task
+3.Show and Hide Button
+a. Create a component with content that can be toggled visible or hidden.
+b. Use a button to show or hide the content dynamically.
 
-<!-- events:action performed by user
-synthetic events : react wrap html events.
+ternary opertor  login and $$ operator  || operator
+ events:action performed by user
+synthetic events : react wrap html events. 
+onclick - onClick
+onchange -onChange
+
+
+1. weather app ==> temp : 30 hot else cold
+ 1. need input filed 
+ 2. temp enter (0-55)
+ 3. temp bellow + image  --> && 
+ 
 
 object destructuring
 const student = {
