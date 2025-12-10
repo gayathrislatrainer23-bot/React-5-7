@@ -72,6 +72,8 @@ synthetic events : react wrap html events.
 onclick - onClick
 onchange -onChange
 
+day-6
+10/12/2025
 list and key
 class task: 1. list some list of fruits in array(for of loop)
          2. list of vagitable and price  object 
