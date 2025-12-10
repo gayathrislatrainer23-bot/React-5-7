@@ -72,6 +72,24 @@ synthetic events : react wrap html events.
 onclick - onClick
 onchange -onChange
 
+list and key
+class task: 1. list some list of fruits in array(for of loop)
+         2. list of vagitable and price  object 
+
+<!-- list 
+vegetables =[
+  {
+    name: "carrot",
+    color:"orange",
+    price: 30
+  },
+  {
+   name: "potato",
+   color: "brown",
+   price: 20
+  }
+] -->
+
 
 1. weather app ==> temp : 30 hot else cold
  1. need input filed 
@@ -80,12 +98,14 @@ onchange -onChange
  
 
 object destructuring
+
 const student = {
   name: "Gayathri",
   age: 22,
   course: "MERN",
   city: "Chennai"
 };
+  const {  name,age.course,city} = student
 props ={
   userName : "Malu"
   object:{

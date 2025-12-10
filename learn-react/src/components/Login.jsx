@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 function Login(props){
-// let name = "Balu"
-// console.log(props)
-// console.log(props.m)
-// let isLoggedin = false;
+let name = "Balu"
+console.log(props)
+console.log(props.m)
+
 const [isLoggedin,setIsLoggedin] = useState(false)
 let isAdmin  = false
 const handleClick = ()=>{

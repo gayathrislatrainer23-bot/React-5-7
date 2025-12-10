@@ -1,4 +1,5 @@
 import { useState } from "react"
+import PropChild from "./PropChild"
 
 function Counter(){
     const [count, setCount] = useState(0)
@@ -22,10 +23,11 @@ function Counter(){
     return(
         <div className="counter" >
             <h1>Hello counter</h1>
-            <h1>{count}</h1>
+            {/* <h1>{count}</h1> */}
             <button onClick={increment}>+</button>
             <button onClick={decrement}>-</button>
             <button onClick={reset}>reset</button>
+            <PropChild count = {count} setCount ={setCount} />
         </div>
     )
     

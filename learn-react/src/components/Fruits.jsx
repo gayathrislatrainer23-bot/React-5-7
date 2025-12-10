@@ -1,8 +1,26 @@
 function Fruits (){
-    let fruits = ["apple","mango"]
+    let fruits = [
+    {name: 'apple',
+        price: 200,
+
+    },{
+        name:"mango",
+        price : 300
+
+    }]
     return(
         <div>
-            <h1>{fruits[1]}</h1>
+{
+    fruits.map ((fruit, i)=>(
+        <div className="">
+
+            <li key={fruit.name}>{fruit.name}</li>
+            <li key={fruit.price}> {fruit.price}</li>
+        
+        </div>
+    )
+    )
+}
         </div>
     )
 }
