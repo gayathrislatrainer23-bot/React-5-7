@@ -46,7 +46,7 @@ day-4
 8/12/2025
 
 virtual dom - light weight copy of real dom
-reconcilation -
+reconcilation - 
 hooks - special fun in react
 day-3
 
@@ -125,3 +125,52 @@ task :
 Show each student’s name (from props) with a Present/Absent button.
 Use state to toggle and display the attendance status.
  -->
+ Router Library
+ -->it helps to build single page app --
+ -->used to navigate , diff pages without reloading
+
+npm i react-router-dom
+
+
+16/12/2025
+useEffect --> hook handle sideeffect of the comp
+
+sEffect -- > hook in react -- handling side effect 
+
+
+ login --> post ---> api
+navigate to dashboard
+--> render --> side effect  --> products api -->
+
+useEffect ??
+syntax:
+
+
+
+useEffect(()=>{
+  <!-- side effect code -->
+})
+
+case: 1 --> run after all renders
+useEffect(()=>{
+  <!-- side effect code -->
+})
+
+case: 2 --> run after initial render
+
+useEffect(()=>{
+  <!-- side effect code -->
+},[])
+dependancy - array - second argument in useEffect
+
+case: 3 --> run after state change  render
+
+const [name, setNAme] =useState("")
+
+useEffect(()=>{
+  <!-- side effect code -->
+},[name,age])
+
+ console : 1.you are logged in  all
+ alert : 2. the page is loaded   []
+ alert : 3.you are loggedin / you are not loggedin  [state]

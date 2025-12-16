@@ -17,7 +17,7 @@ setIsLoggedin(true)
 {
     isLoggedin ?
     <div className="">
-
+s
         <h1>welcome to home</h1><h1>haii</h1> 
     </div> 
     : <h1>please login</h1>
