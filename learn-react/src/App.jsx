@@ -1,7 +1,7 @@
 
 import './App.css'
 import BackgroundChanger from './components/BackgroundChanger'
-import Counter from './components/Counter'
+import Counter from  './components/counter/Counter'
 import Fruits from './components/Fruits'
 import Login from './components/Login'
 import LoginForm from './components/LoginForm'
@@ -12,12 +12,14 @@ import AdminDashboard from './pages/AdminDashboard'
 import Home from './pages/Home'
 import Effect from './components/Effect'
 import NoteFound from './pages/NotFound'
+import MaterialUI from './components/MaterialUI'
 
 function App() {
   let mark = 35
   let arr = [2,4,5,'jgh']
   return (
     <>
+    
 <BrowserRouter>
 <nav>
 <Link to= {'/home'}>HOME</Link>
@@ -26,8 +28,11 @@ function App() {
 </nav>
 <Routes>
   <Route path="/home"  element= {<Home/>} />
+  <Route path="/materialUI"  element= {<MaterialUI/>} />
   <Route path="/admin"  element= {<AdminDashboard/>} />
+  <Route path="/login"  element= {<LoginForm/>} />
   <Route path="/effect"  element= {<Effect/>} />
+  <Route path="/effect"  element= {<Counter/>} />
   <Route path="/*"  element= {<NoteFound/>} />
 </Routes>
 </BrowserRouter>

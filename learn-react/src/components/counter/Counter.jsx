@@ -1,5 +1,5 @@
 import { useState } from "react"
-import PropChild from "./PropChild"
+import PropChild from "../PropChild"
 
 function Counter(){
     const [count, setCount] = useState(0)
@@ -34,3 +34,4 @@ function Counter(){
     
 }
 export default Counter
+// export {increment} 

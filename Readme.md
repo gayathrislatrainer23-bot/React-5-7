@@ -174,3 +174,11 @@ useEffect(()=>{
  console : 1.you are logged in  all
  alert : 2. the page is loaded   []
  alert : 3.you are loggedin / you are not loggedin  [state]
+
+
+ Fragments
+
+ <>
+  <>
+ </>
+ </>

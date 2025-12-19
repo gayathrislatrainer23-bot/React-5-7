@@ -79,3 +79,41 @@ useState : hook used to manage state.
 const [state, setState] = useState(0)
 events:action performed by user
 synthetic events : react wrap html events.
+
+17/12/2025
+
+1. WeatherInfo -- parent comp 
+
+weather = { city: "Chennai", temp: 30 } -- props
+
+WeatherDisplay - child comp
+
+display:
+use template literal
+eg :         <p>{`nfjkghijsf ${userName}`}</p>
+
+weather.city
+weather.temp
+
+2. Create a counter in React that increases by 1 when a button is clicked.
+Check if the counter number is even or odd.
+If the number is even, display “Patient go to Room 3”.
+If the number is odd, display “Patient go to Room 4”.
+If the number is 0, please Wait .
+
+
+3. Create a React input where the user enters temperature.
+If temperature is above 40, display “High Fever”.
+If temperature is between 30–40, display “Normal”.
+If below 30, display “Low Temperature”.
+
+
+4. Create an input for age in React.
+If age is below 13, show “Child”.
+If age is 13–19, show “Teenager”.
+If age is 20 or above, show “Adult”.
+
+5. Create an input for vehicle speed.
+If speed > 80 show “Over Speeding”.
+If speed 40–80 show “Normal Speed”.
+If speed < 40 show “Too Slow”.
