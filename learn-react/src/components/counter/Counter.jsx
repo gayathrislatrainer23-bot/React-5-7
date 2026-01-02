@@ -3,8 +3,6 @@ import PropChild from "../PropChild"
 
 function Counter(){
     const [count, setCount] = useState(0)
-  
-    
     // let h = 10
     const increment = ()=>{
         if(count>= 10){
@@ -27,7 +25,7 @@ function Counter(){
             <button onClick={increment}>+</button>
             <button onClick={decrement}>-</button>
             <button onClick={reset}>reset</button>
-            <PropChild count = {count} setCount ={setCount} />
+            <PropChild count = {count} setCount={setCount} />
         </div>
     )
     

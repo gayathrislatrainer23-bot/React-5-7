@@ -182,3 +182,8 @@ useEffect(()=>{
   <>
  </>
  </>
+
+redux
+npm - redux command line
+npm i react-redux
+terminal
