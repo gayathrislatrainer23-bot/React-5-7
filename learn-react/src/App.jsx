@@ -13,6 +13,7 @@ import Home from './pages/Home'
 import Effect from './components/Effect'
 import NoteFound from './pages/NotFound'
 import MaterialUI from './components/MaterialUI'
+import Tailwindcss from './components/Tailwindcss'
 
 function App() {
   let mark = 35
@@ -32,7 +33,8 @@ function App() {
   <Route path="/admin"  element= {<AdminDashboard/>} />
   <Route path="/login"  element= {<LoginForm/>} />
   <Route path="/effect"  element= {<Effect/>} />
-  <Route path="/effect"  element= {<Counter/>} />
+  <Route path="/Counter"  element= {<Counter/>} />
+  <Route path="/tail"  element= {<Tailwindcss/>} />
   <Route path="/*"  element= {<NoteFound/>} />
 </Routes>
 </BrowserRouter>
