@@ -1,13 +1,19 @@
 import { useState } from "react";
+import BackgroundChanger from "./BackgroundChanger";
 
-const  PropChild = ({count1, count,setCount}) =>{
+const  PropChild = ({count,Background}) =>{
 
     return (
         <div className="PropChild"  >
-          {count1}
+          {count}
           {count}
           <button onClick={()=>setCount(count+2)}>child button</button>
         </div>
     )
 }
 export default PropChild;
+//property = object
+// props = {
+//   count,
+//   BackgroundChanger..
+// }

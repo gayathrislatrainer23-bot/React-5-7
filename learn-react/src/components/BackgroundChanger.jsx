@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropChild from "./PropChild";
 
 const  BackgroundChanger = () =>{
     const [background,setbackground]=useState("black")
@@ -10,6 +11,7 @@ setbackground("white")
         <div className="backgroundChanger" style={{background:background}} >
 <h1 style={{color:"black"}}>hello </h1>
 <button onClick={handleChanger} > Color changer</button>
+<PropChild background ={background} />
         </div>
     )
 }
