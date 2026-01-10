@@ -1,7 +1,7 @@
 
 import './App.css'
 import BackgroundChanger from './components/BackgroundChanger'
-import Counter from  './components/counter/Counter'
+// import Counter from  './components/counter/Counter'
 import Fruits from './components/Fruits'
 import Login from './components/Login'
 import LoginForm from './components/LoginForm'
@@ -14,26 +14,27 @@ import Effect from './components/Effect'
 import NoteFound from './pages/NotFound'
 import MaterialUI from './components/MaterialUI'
 import Tailwindcss from './components/Tailwindcss'
+import Counter from './components/Counter'
 
 function App() {
   let mark = 35
   let arr = [2,4,5,'jgh']
   return (
     <>
-    
+    <Counter/>
 <BrowserRouter>
-<nav>
+{/* <nav>
 <Link to= {'/home'}>HOME</Link>
 <br />
 <Link to= {'/admin'}>DashBoard</Link>
-</nav>
+</nav> */}
 <Routes>
   <Route path="/home"  element= {<Home/>} />
   <Route path="/materialUI"  element= {<MaterialUI/>} />
   <Route path="/admin"  element= {<AdminDashboard/>} />
   <Route path="/login"  element= {<LoginForm/>} />
   <Route path="/effect"  element= {<Effect/>} />
-  <Route path="/Counter"  element= {<Counter/>} />
+  {/* <Route path="/Counter"  element= {<Counter/>} /> */}
   <Route path="/tail"  element= {<Tailwindcss/>} />
   <Route path="/*"  element= {<NoteFound/>} />
 </Routes>
