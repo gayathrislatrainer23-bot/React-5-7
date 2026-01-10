@@ -1,14 +1,22 @@
 import { useState } from "react"
+
 import {useNavigate} from 'react-router-dom'
 const LoginForm = ()=>{
     const [email, setEmail] = useState('')
+    // const [status, setStatus] = useState(false)
 const navigate = useNavigate()
+
     const handleSubmit = (e)=>{
         e.preventDefault()
+status= true;
+        // console.log(e)
+        //   console.log(e.target.elements.email.value)   
+        // data send to db
+        // res success
+if(status){
 
-        console.log(e)
-          console.log(e.target.elements.email.value)   
-          navigate('/home')
+    navigate('/home')
+}
 //  alert(email)
     }
 const handleEmailChange = (e)=>{
