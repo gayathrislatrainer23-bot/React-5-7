@@ -14,14 +14,16 @@ import Effect from './components/Effect'
 import NoteFound from './pages/NotFound'
 import MaterialUI from './components/MaterialUI'
 import Tailwindcss from './components/Tailwindcss'
-import Counter from './components/Counter'
+// import Counter from './components/Counter'
+import ToDoList from './components/ToDoList'
 
 function App() {
   let mark = 35
   let arr = [2,4,5,'jgh']
   return (
     <>
-    <Counter/>
+    {/* <Counter/> */}
+    <ToDoList/>
 <BrowserRouter>
 {/* <nav>
 <Link to= {'/home'}>HOME</Link>
