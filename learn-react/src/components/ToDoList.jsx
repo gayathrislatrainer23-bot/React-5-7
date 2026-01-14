@@ -9,11 +9,21 @@ function ToDoList() {
   let handleAdd = (e) => {
    
      setTodos([...todos ,input]);
-    // setTodos((todos)=> todos.push(input))
-    // setTodos(todos.push(input))
-    //    console.log(todos);
+ 
   };
-  
+  const handleDelete = (i)=>{
+console.log(i)
+const updatedValue = todos.filter((todo)=>todos[i] !== todo)
+
+setTodos(updatedValue)
+}
+//   const addTodo = (input) => {
+// const updatedTodos = [...todos]; // copy first
+// updatedTodos.push(input);      // mutate the copy
+// setTodos(updatedTodos);
+
+//   };
+
   return (
     <div>
       <h1>To Do List</h1>
@@ -24,14 +34,14 @@ function ToDoList() {
         onChange={handleinput}
       />
       <button onClick={handleAdd}>Add</button>
-      {todos[0]}
-      {/* <div>
+
+      <div>
         { 
   todos.length !==0 &&      todos.map((todo,i)=>(
-<li key={i}>{todo}</li>
+<li key={i}>{todo} <button onClick={()=>handleDelete(i)}>delete</button></li>
         ))
         }
-      </div> */}
+      </div>
     </div>
   );
 }
